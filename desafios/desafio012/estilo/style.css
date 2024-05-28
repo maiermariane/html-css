@@ -46,7 +46,7 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 40px;
+    padding-left: 50px;
     font-family: var(--fonte3);
     font-size: 3.5vw;
 }
@@ -70,7 +70,7 @@ section.imagem {
 section.imagem > p {
    display: inline-block;
    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.182);
+    background-color: rgba(0, 0, 0, 0.384);
     text-shadow: 1px 1px 0px black;
 }
 
