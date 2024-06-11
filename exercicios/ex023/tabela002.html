@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th {
             border: 2px solid black ;
@@ -21,6 +22,11 @@
         thead, tfoot{
             background-color: rgb(59, 58, 58);
             color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: rgb(59, 58, 58) ;
         }
         caption {
             font-size: 1.5em;
